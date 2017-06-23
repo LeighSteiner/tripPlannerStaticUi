@@ -1,10 +1,53 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <title>Trip Planner</title>
-  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
 </head>
 <body>
-  <h1>Welcome!</h1>
+  <h1>Welcome!</h1> -->
+  
+  	<!-- <select data-type = "hotel"><option> {{   templateHotels  }} <option></select> -->
+
+  <!-- 	<ul>
+  	{% for hotel in templateHotels %}
+  		<li>
+  			{{hotel.name}}
+  		</li>
+  		{%  endfor %}
+  	</ul>
+
+
+  	<ul>
+  	{% for restaurant in templateRestaurants %}
+  		<li>
+  			{{restaurant.name}}
+  		</li>
+  		{%  endfor %}
+  	</ul>
+
+
+
+  	<ul>
+  	{% for activity in templateActivities %}
+  		<li>
+  			{{ac.name}}
+  		</li>
+  		{%  endfor %}
+  	</ul>
+
+  
 </body>
 </html>
+ -->
+
+ 
+{% extends 'layout.html' %}
+
+{% block title %}Your Trip{% endblock %}
+
+{% block content %}
+<div id="app" class="clearfix">
+  <h1>Hello, I am the app!</h1>
+</div>
+{% endblock %}
